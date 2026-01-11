@@ -55,6 +55,8 @@
 
 > 详细步骤见[完整部署指南](https://zqq-nuli.github.io/Cloudflare-Navihive/deployment/)
 
+ 创建密码使用哈希值密码  [哈希值生成器](https://bcrypt-generator.com/)
+
 数据库控制台代码：
 -- 创建分组表
 
@@ -170,4 +172,3 @@ Made with ❤️ by [zqq-nuli](https://github.com/zqq-nuli)
 
 ⭐ 如果觉得有用，别忘了点个 Star 哦 ⭐
 
-</div>
