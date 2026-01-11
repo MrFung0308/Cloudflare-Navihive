@@ -57,6 +57,7 @@
 
 数据库控制台代码：
 -- 创建分组表
+
 CREATE TABLE IF NOT EXISTS groups (
     id INTEGER PRIMARY KEY AUTOINCREMENT, 
     name TEXT NOT NULL, 
@@ -67,6 +68,7 @@ CREATE TABLE IF NOT EXISTS groups (
 );
 
 -- 创建站点表
+
 CREATE TABLE IF NOT EXISTS sites (
     id INTEGER PRIMARY KEY AUTOINCREMENT, 
     group_id INTEGER NOT NULL, 
@@ -83,6 +85,7 @@ CREATE TABLE IF NOT EXISTS sites (
 );
 
 -- 创建配置表
+
 CREATE TABLE IF NOT EXISTS configs (
     key TEXT PRIMARY KEY,
     value TEXT NOT NULL,
@@ -91,9 +94,11 @@ CREATE TABLE IF NOT EXISTS configs (
 );
 
 -- 设置初始化标志
+
 INSERT INTO configs (key, value) VALUES ('DB_INITIALIZED', 'true');
 
 --创建只读模式所需牵引
+
 CREATE INDEX IF NOT EXISTS idx_groups_is_public ON groups(is_public);
 CREATE INDEX IF NOT EXISTS idx_sites_is_public ON sites(is_public);
 
