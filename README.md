@@ -160,43 +160,6 @@ CREATE INDEX IF NOT EXISTS idx_sites_is_public ON sites(is_public);
 
 ---
 
-## ⭐ 支持项目
-
-如果 NaviHive 对你有帮助，欢迎通过以下方式支持：
-
-### 💝 给项目点赞
-- 点击右上角的 ⭐ **Star** 按钮，这是对开发者最大的鼓励
-- **Fork** 项目，参与改进和定制
-- 分享给你的朋友和同事
-
-### 💰 赞赏支持
-你的赞赏将用于项目的持续开发和维护：
-
-<div align="center">
-  <img src="https://img.zhengmi.org/file/1743956440128_4b965550184c06d8164f8077fa42b5d.jpg" alt="微信赞赏码" width="300">
-  <p><em>微信扫码赞赏</em></p>
-</div>
-
-### 🤝 其他支持方式
-- 💬 提交有价值的 Issue 和 Feature Request
-- 📝 改进文档和教程
-- 🐛 报告 Bug 并提供复现步骤
-- 💻 贡献代码（欢迎提交 PR）
-
----
-
-## 📈 Star History
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=zqq-nuli/Cloudflare-Navihive&type=Date&theme=dark" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=zqq-nuli/Cloudflare-Navihive&type=Date" />
-  <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=zqq-nuli/Cloudflare-Navihive&type=Date" />
-</picture>
-
----
-
-<div align="center">
-
 ## 🎉 让导航管理更简单
 
 **NaviHive** - 你的专属网络导航中心
